@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2468A2752A9329F800CFF641 /* getip2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2468A2742A9329F800CFF641 /* getip2App.swift */; };
+		2468A2772A9329F800CFF641 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2468A2762A9329F800CFF641 /* ContentView.swift */; };
+		2468A2792A9329F900CFF641 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2468A2782A9329F900CFF641 /* Assets.xcassets */; };
+		2468A27C2A9329F900CFF641 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2468A27B2A9329F900CFF641 /* Preview Assets.xcassets */; };
+		2468A2872A9329F900CFF641 /* getip2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2468A2862A9329F900CFF641 /* getip2Tests.swift */; };
+		2468A2912A9329F900CFF641 /* getip2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2468A2902A9329F900CFF641 /* getip2UITests.swift */; };
+		2468A2932A9329F900CFF641 /* getip2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2468A2922A9329F900CFF641 /* getip2UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2468A2832A9329F900CFF641 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2468A2692A9329F800CFF641 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2468A2702A9329F800CFF641;
+			remoteInfo = getip2;
+		};
+		2468A28D2A9329F900CFF641 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2468A2692A9329F800CFF641 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2468A2702A9329F800CFF641;
+			remoteInfo = getip2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2468A2712A9329F800CFF641 /* getip2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = getip2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2468A2742A9329F800CFF641 /* getip2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getip2App.swift; sourceTree = "<group>"; };
+		2468A2762A9329F800CFF641 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2468A2782A9329F900CFF641 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2468A27B2A9329F900CFF641 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2468A27D2A9329F900CFF641 /* getip2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = getip2.entitlements; sourceTree = "<group>"; };
+		2468A2822A9329F900CFF641 /* getip2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = getip2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2468A2862A9329F900CFF641 /* getip2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getip2Tests.swift; sourceTree = "<group>"; };
+		2468A28C2A9329F900CFF641 /* getip2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = getip2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2468A2902A9329F900CFF641 /* getip2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getip2UITests.swift; sourceTree = "<group>"; };
+		2468A2922A9329F900CFF641 /* getip2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getip2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2468A26E2A9329F800CFF641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2468A27F2A9329F900CFF641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2468A2892A9329F900CFF641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2468A2682A9329F800CFF641 = {
+			isa = PBXGroup;
+			children = (
+				2468A2732A9329F800CFF641 /* getip2 */,
+				2468A2852A9329F900CFF641 /* getip2Tests */,
+				2468A28F2A9329F900CFF641 /* getip2UITests */,
+				2468A2722A9329F800CFF641 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2468A2722A9329F800CFF641 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2468A2712A9329F800CFF641 /* getip2.app */,
+				2468A2822A9329F900CFF641 /* getip2Tests.xctest */,
+				2468A28C2A9329F900CFF641 /* getip2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2468A2732A9329F800CFF641 /* getip2 */ = {
+			isa = PBXGroup;
+			children = (
+				2468A2742A9329F800CFF641 /* getip2App.swift */,
+				2468A2762A9329F800CFF641 /* ContentView.swift */,
+				2468A2782A9329F900CFF641 /* Assets.xcassets */,
+				2468A27D2A9329F900CFF641 /* getip2.entitlements */,
+				2468A27A2A9329F900CFF641 /* Preview Content */,
+			);
+			path = getip2;
+			sourceTree = "<group>";
+		};
+		2468A27A2A9329F900CFF641 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2468A27B2A9329F900CFF641 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2468A2852A9329F900CFF641 /* getip2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2468A2862A9329F900CFF641 /* getip2Tests.swift */,
+			);
+			path = getip2Tests;
+			sourceTree = "<group>";
+		};
+		2468A28F2A9329F900CFF641 /* getip2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				2468A2902A9329F900CFF641 /* getip2UITests.swift */,
+				2468A2922A9329F900CFF641 /* getip2UITestsLaunchTests.swift */,
+			);
+			path = getip2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2468A2702A9329F800CFF641 /* getip2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2468A2962A9329F900CFF641 /* Build configuration list for PBXNativeTarget "getip2" */;
+			buildPhases = (
+				2468A26D2A9329F800CFF641 /* Sources */,
+				2468A26E2A9329F800CFF641 /* Frameworks */,
+				2468A26F2A9329F800CFF641 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = getip2;
+			productName = getip2;
+			productReference = 2468A2712A9329F800CFF641 /* getip2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2468A2812A9329F900CFF641 /* getip2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2468A2992A9329F900CFF641 /* Build configuration list for PBXNativeTarget "getip2Tests" */;
+			buildPhases = (
+				2468A27E2A9329F900CFF641 /* Sources */,
+				2468A27F2A9329F900CFF641 /* Frameworks */,
+				2468A2802A9329F900CFF641 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2468A2842A9329F900CFF641 /* PBXTargetDependency */,
+			);
+			name = getip2Tests;
+			productName = getip2Tests;
+			productReference = 2468A2822A9329F900CFF641 /* getip2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2468A28B2A9329F900CFF641 /* getip2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2468A29C2A9329F900CFF641 /* Build configuration list for PBXNativeTarget "getip2UITests" */;
+			buildPhases = (
+				2468A2882A9329F900CFF641 /* Sources */,
+				2468A2892A9329F900CFF641 /* Frameworks */,
+				2468A28A2A9329F900CFF641 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2468A28E2A9329F900CFF641 /* PBXTargetDependency */,
+			);
+			name = getip2UITests;
+			productName = getip2UITests;
+			productReference = 2468A28C2A9329F900CFF641 /* getip2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2468A2692A9329F800CFF641 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2468A2702A9329F800CFF641 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					2468A2812A9329F900CFF641 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 2468A2702A9329F800CFF641;
+					};
+					2468A28B2A9329F900CFF641 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 2468A2702A9329F800CFF641;
+					};
+				};
+			};
+			buildConfigurationList = 2468A26C2A9329F800CFF641 /* Build configuration list for PBXProject "getip2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2468A2682A9329F800CFF641;
+			productRefGroup = 2468A2722A9329F800CFF641 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2468A2702A9329F800CFF641 /* getip2 */,
+				2468A2812A9329F900CFF641 /* getip2Tests */,
+				2468A28B2A9329F900CFF641 /* getip2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2468A26F2A9329F800CFF641 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2468A27C2A9329F900CFF641 /* Preview Assets.xcassets in Resources */,
+				2468A2792A9329F900CFF641 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2468A2802A9329F900CFF641 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2468A28A2A9329F900CFF641 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2468A26D2A9329F800CFF641 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2468A2772A9329F800CFF641 /* ContentView.swift in Sources */,
+				2468A2752A9329F800CFF641 /* getip2App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2468A27E2A9329F900CFF641 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2468A2872A9329F900CFF641 /* getip2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2468A2882A9329F900CFF641 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2468A2912A9329F900CFF641 /* getip2UITests.swift in Sources */,
+				2468A2932A9329F900CFF641 /* getip2UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2468A2842A9329F900CFF641 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2468A2702A9329F800CFF641 /* getip2 */;
+			targetProxy = 2468A2832A9329F900CFF641 /* PBXContainerItemProxy */;
+		};
+		2468A28E2A9329F900CFF641 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2468A2702A9329F800CFF641 /* getip2 */;
+			targetProxy = 2468A28D2A9329F900CFF641 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2468A2942A9329F900CFF641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2468A2952A9329F900CFF641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2468A2972A9329F900CFF641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = getip2/getip2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"getip2/Preview Content\"";
+				DEVELOPMENT_TEAM = JS4LGF258Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = simple.getip2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2468A2982A9329F900CFF641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = getip2/getip2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"getip2/Preview Content\"";
+				DEVELOPMENT_TEAM = JS4LGF258Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = simple.getip2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2468A29A2A9329F900CFF641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JS4LGF258Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = simple.getip2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/getip2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/getip2";
+			};
+			name = Debug;
+		};
+		2468A29B2A9329F900CFF641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JS4LGF258Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = simple.getip2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/getip2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/getip2";
+			};
+			name = Release;
+		};
+		2468A29D2A9329F900CFF641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JS4LGF258Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = simple.getip2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = getip2;
+			};
+			name = Debug;
+		};
+		2468A29E2A9329F900CFF641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JS4LGF258Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = simple.getip2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = getip2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2468A26C2A9329F800CFF641 /* Build configuration list for PBXProject "getip2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2468A2942A9329F900CFF641 /* Debug */,
+				2468A2952A9329F900CFF641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2468A2962A9329F900CFF641 /* Build configuration list for PBXNativeTarget "getip2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2468A2972A9329F900CFF641 /* Debug */,
+				2468A2982A9329F900CFF641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2468A2992A9329F900CFF641 /* Build configuration list for PBXNativeTarget "getip2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2468A29A2A9329F900CFF641 /* Debug */,
+				2468A29B2A9329F900CFF641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2468A29C2A9329F900CFF641 /* Build configuration list for PBXNativeTarget "getip2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2468A29D2A9329F900CFF641 /* Debug */,
+				2468A29E2A9329F900CFF641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2468A2692A9329F800CFF641 /* Project object */;
+}
