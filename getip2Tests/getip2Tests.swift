@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import getip2
+import getip2
 
 final class getip2Tests: XCTestCase {
 

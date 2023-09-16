@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		245F7AD32AA1C958003B36C6 /* Selenops in Frameworks */ = {isa = PBXBuildFile; productRef = 245F7AD22AA1C958003B36C6 /* Selenops */; };
+		245F7AD62AA1CC04003B36C6 /* Kanna in Frameworks */ = {isa = PBXBuildFile; productRef = 245F7AD52AA1CC04003B36C6 /* Kanna */; };
+		245F7AD92AA1E740003B36C6 /* HTTPTaskPublisher in Frameworks */ = {isa = PBXBuildFile; productRef = 245F7AD82AA1E740003B36C6 /* HTTPTaskPublisher */; };
+		245F7ADC2AA1E956003B36C6 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 245F7ADB2AA1E956003B36C6 /* Alamofire */; };
+		245F7ADF2AA2C369003B36C6 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 245F7ADE2AA2C369003B36C6 /* SwiftSoup */; };
 		2468A2752A9329F800CFF641 /* getip2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2468A2742A9329F800CFF641 /* getip2App.swift */; };
-		2468A2772A9329F800CFF641 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2468A2762A9329F800CFF641 /* ContentView.swift */; };
 		2468A2792A9329F900CFF641 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2468A2782A9329F900CFF641 /* Assets.xcassets */; };
 		2468A27C2A9329F900CFF641 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2468A27B2A9329F900CFF641 /* Preview Assets.xcassets */; };
 		2468A2872A9329F900CFF641 /* getip2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2468A2862A9329F900CFF641 /* getip2Tests.swift */; };
 		2468A2912A9329F900CFF641 /* getip2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2468A2902A9329F900CFF641 /* getip2UITests.swift */; };
 		2468A2932A9329F900CFF641 /* getip2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2468A2922A9329F900CFF641 /* getip2UITestsLaunchTests.swift */; };
+		2498016A2AA7014C00003C6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249801692AA7014C00003C6F /* ContentView.swift */; };
+		249F686F2AA317790004EB8B /* Stream in Frameworks */ = {isa = PBXBuildFile; productRef = 249F686E2AA317790004EB8B /* Stream */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,6 @@
 /* Begin PBXFileReference section */
 		2468A2712A9329F800CFF641 /* getip2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = getip2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2468A2742A9329F800CFF641 /* getip2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getip2App.swift; sourceTree = "<group>"; };
-		2468A2762A9329F800CFF641 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2468A2782A9329F900CFF641 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2468A27B2A9329F900CFF641 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2468A27D2A9329F900CFF641 /* getip2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = getip2.entitlements; sourceTree = "<group>"; };
@@ -45,6 +50,9 @@
 		2468A28C2A9329F900CFF641 /* getip2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = getip2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2468A2902A9329F900CFF641 /* getip2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getip2UITests.swift; sourceTree = "<group>"; };
 		2468A2922A9329F900CFF641 /* getip2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getip2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2468A29F2A932A4C00CFF641 /* getip2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "getip2-Bridging-Header.h"; sourceTree = "<group>"; };
+		249801692AA7014C00003C6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		249C04302AB55FEF006EC2DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +60,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				245F7AD62AA1CC04003B36C6 /* Kanna in Frameworks */,
+				245F7ADC2AA1E956003B36C6 /* Alamofire in Frameworks */,
+				245F7AD32AA1C958003B36C6 /* Selenops in Frameworks */,
+				245F7AD92AA1E740003B36C6 /* HTTPTaskPublisher in Frameworks */,
+				249F686F2AA317790004EB8B /* Stream in Frameworks */,
+				245F7ADF2AA2C369003B36C6 /* SwiftSoup in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,11 +109,13 @@
 		2468A2732A9329F800CFF641 /* getip2 */ = {
 			isa = PBXGroup;
 			children = (
+				249C04302AB55FEF006EC2DB /* Info.plist */,
 				2468A2742A9329F800CFF641 /* getip2App.swift */,
-				2468A2762A9329F800CFF641 /* ContentView.swift */,
 				2468A2782A9329F900CFF641 /* Assets.xcassets */,
 				2468A27D2A9329F900CFF641 /* getip2.entitlements */,
 				2468A27A2A9329F900CFF641 /* Preview Content */,
+				2468A29F2A932A4C00CFF641 /* getip2-Bridging-Header.h */,
+				249801692AA7014C00003C6F /* ContentView.swift */,
 			);
 			path = getip2;
 			sourceTree = "<group>";
@@ -145,6 +161,14 @@
 			dependencies = (
 			);
 			name = getip2;
+			packageProductDependencies = (
+				245F7AD22AA1C958003B36C6 /* Selenops */,
+				245F7AD52AA1CC04003B36C6 /* Kanna */,
+				245F7AD82AA1E740003B36C6 /* HTTPTaskPublisher */,
+				245F7ADB2AA1E956003B36C6 /* Alamofire */,
+				245F7ADE2AA2C369003B36C6 /* SwiftSoup */,
+				249F686E2AA317790004EB8B /* Stream */,
+			);
 			productName = getip2;
 			productReference = 2468A2712A9329F800CFF641 /* getip2.app */;
 			productType = "com.apple.product-type.application";
@@ -197,6 +221,7 @@
 				TargetAttributes = {
 					2468A2702A9329F800CFF641 = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
 					};
 					2468A2812A9329F900CFF641 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -217,6 +242,14 @@
 				Base,
 			);
 			mainGroup = 2468A2682A9329F800CFF641;
+			packageReferences = (
+				245F7AD12AA1C958003B36C6 /* XCRemoteSwiftPackageReference "Selenops" */,
+				245F7AD42AA1CC04003B36C6 /* XCRemoteSwiftPackageReference "Kanna" */,
+				245F7AD72AA1E740003B36C6 /* XCRemoteSwiftPackageReference "HTTPTaskPublisher" */,
+				245F7ADA2AA1E956003B36C6 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				245F7ADD2AA2C369003B36C6 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+				249F686D2AA317790004EB8B /* XCRemoteSwiftPackageReference "stream" */,
+			);
 			productRefGroup = 2468A2722A9329F800CFF641 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,7 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2468A2772A9329F800CFF641 /* ContentView.swift in Sources */,
+				2498016A2AA7014C00003C6F /* ContentView.swift in Sources */,
 				2468A2752A9329F800CFF641 /* getip2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +448,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = getip2/getip2.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -424,6 +459,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = getip2/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -433,6 +469,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = simple.getip2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "getip2/getip2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -441,7 +479,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=macosx*]" = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = getip2/getip2.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -451,6 +492,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = getip2/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -460,6 +502,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = simple.getip2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "getip2/getip2-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -576,6 +619,90 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		245F7AD12AA1C958003B36C6 /* XCRemoteSwiftPackageReference "Selenops" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zntfdr/Selenops.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		245F7AD42AA1CC04003B36C6 /* XCRemoteSwiftPackageReference "Kanna" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tid-kijyun/Kanna";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		245F7AD72AA1E740003B36C6 /* XCRemoteSwiftPackageReference "HTTPTaskPublisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hainayanda/HTTPTaskPublisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		245F7ADA2AA1E956003B36C6 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		245F7ADD2AA2C369003B36C6 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		249F686D2AA317790004EB8B /* XCRemoteSwiftPackageReference "stream" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/swiftstack/stream";
+			requirement = {
+				branch = dev;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		245F7AD22AA1C958003B36C6 /* Selenops */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 245F7AD12AA1C958003B36C6 /* XCRemoteSwiftPackageReference "Selenops" */;
+			productName = Selenops;
+		};
+		245F7AD52AA1CC04003B36C6 /* Kanna */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 245F7AD42AA1CC04003B36C6 /* XCRemoteSwiftPackageReference "Kanna" */;
+			productName = Kanna;
+		};
+		245F7AD82AA1E740003B36C6 /* HTTPTaskPublisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 245F7AD72AA1E740003B36C6 /* XCRemoteSwiftPackageReference "HTTPTaskPublisher" */;
+			productName = HTTPTaskPublisher;
+		};
+		245F7ADB2AA1E956003B36C6 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 245F7ADA2AA1E956003B36C6 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		245F7ADE2AA2C369003B36C6 /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 245F7ADD2AA2C369003B36C6 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+		249F686E2AA317790004EB8B /* Stream */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 249F686D2AA317790004EB8B /* XCRemoteSwiftPackageReference "stream" */;
+			productName = Stream;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2468A2692A9329F800CFF641 /* Project object */;
 }

@@ -1,21 +1,25 @@
 {
   "images" : [
     {
+      "filename" : "WechatIMG32.jpg",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "16x16"
     },
     {
+      "filename" : "AppIcon16x16@2x.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "16x16"
     },
     {
+      "filename" : "AppIcon32x32.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "32x32"
     },
     {
+      "filename" : "WechatIMG34.jpg",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "32x32"
@@ -26,21 +30,25 @@
       "size" : "128x128"
     },
     {
+      "filename" : "RoundCorner (1) 1.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "128x128"
     },
     {
+      "filename" : "RoundCorner (1).png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "256x256"
     },
     {
+      "filename" : "RoundCorner.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "256x256"
     },
     {
+      "filename" : "RoundCorner 1.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "512x512"

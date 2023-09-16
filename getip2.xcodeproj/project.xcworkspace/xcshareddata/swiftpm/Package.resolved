@@ -1,0 +1,95 @@
+{
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire",
+      "state" : {
+        "revision" : "b2fa556e4e48cbf06cf8c63def138c98f4b811fa",
+        "version" : "5.8.0"
+      }
+    },
+    {
+      "identity" : "combineasync",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hainayanda/CombineAsync.git",
+      "state" : {
+        "revision" : "7bbf9cfc1c773523dedcdf145e7eaa7a93edfdac",
+        "version" : "1.1.3"
+      }
+    },
+    {
+      "identity" : "httptaskpublisher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hainayanda/HTTPTaskPublisher.git",
+      "state" : {
+        "revision" : "29554ab937eadd57b1078f674ea422a469f0d657",
+        "version" : "1.1.0"
+      }
+    },
+    {
+      "identity" : "kanna",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tid-kijyun/Kanna",
+      "state" : {
+        "revision" : "f9e4922223dd0d3dfbf02ca70812cf5531fc0593",
+        "version" : "5.2.7"
+      }
+    },
+    {
+      "identity" : "retain",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hainayanda/Retain.git",
+      "state" : {
+        "revision" : "faadd0f2d903b49ce25a95b8dac00fee2fc2431d",
+        "version" : "1.0.1"
+      }
+    },
+    {
+      "identity" : "selenops",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zntfdr/Selenops.git",
+      "state" : {
+        "revision" : "8c2ee90339cf47edf8087ac40a924bb1db6e4fec",
+        "version" : "2.0.1"
+      }
+    },
+    {
+      "identity" : "stream",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swiftstack/stream",
+      "state" : {
+        "branch" : "dev",
+        "revision" : "84dfcfe6822fad398ff1d3a51cc7850dbcfea7ef"
+      }
+    },
+    {
+      "identity" : "swift-argument-parser",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-argument-parser.git",
+      "state" : {
+        "revision" : "223d62adc52d51669ae2ee19bdb8b7d9fd6fcd9c",
+        "version" : "0.0.6"
+      }
+    },
+    {
+      "identity" : "swift-tools-support-core",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-tools-support-core.git",
+      "state" : {
+        "revision" : "693aba4c4c9dcc4767cc853a0dd38bf90ad8c258",
+        "version" : "0.0.1"
+      }
+    },
+    {
+      "identity" : "swiftsoup",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/scinfu/SwiftSoup.git",
+      "state" : {
+        "revision" : "8b6cf29eead8841a1fa7822481cb3af4ddaadba6",
+        "version" : "2.6.1"
+      }
+    }
+  ],
+  "version" : 2
+}
